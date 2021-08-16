@@ -26,6 +26,9 @@ const CartSummary = () => (
               : `${cartList.length} Item `}
             in cart
           </p>
+          <button type="button" className="Checkout-btn">
+            Checkout
+          </button>
         </div>
       )
     }}
