@@ -1,1 +1,27 @@
-/* Write your CSS here */
+.cart-summary {
+  align-self: flex-end;
+}
+
+.order-total-title {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.total-amount {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.total-in-cart-count {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px;
+}

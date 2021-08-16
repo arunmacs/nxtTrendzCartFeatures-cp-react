@@ -2,6 +2,7 @@ import Header from '../Header'
 import CartListView from '../CartListView'
 
 import CartContext from '../../context/CartContext'
+import CartSummary from '../CartSummary'
 import EmptyCartView from '../EmptyCartView'
 
 import './index.css'
@@ -37,6 +38,7 @@ const Cart = () => (
                 </div>
                 <CartListView />
                 {/* TODO: Add your code for Cart Summary here */}
+                <CartSummary />
               </div>
             )}
           </div>
